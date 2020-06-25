@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="reset-css" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
     
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Indie+Flower&family=Noto+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
@@ -13,19 +13,20 @@
     <section id="header">
 
         <h1 id="home-mobile" class="name">Tristan Shipp</h1>
-        <nav>
-            <button class="button" class="sans-text"><a href="#home-mobile">Home</a></button>
-            <button class="button" class="sans-text"><a href="#portfolio-mobile">Portfolio</a></button>
-            <button class="button" class="sans-text"><a href="#skills-mobile">Skills</a></button>
-            <button class="button" class="sans-text"><a href="#contact">Contact</a></button>
-        </nav>
-        <img class="profile-pic"src="images/responsive-layout-profile.png" alt="profile-picture">
-        <p class="skill-text" class="cool-text">Hello! I'm currently studing Front-End Web Development with Treehouse. I have learned a little HTML, CSS, and JavaScript. I have really enjoyed learning with Treehouse, and having projects to work on. Thanks Treehouse! </p>
+        <ul class="mobile-nav">
+
+            <li><a href="#header">Home</a></li>
+            <li><a href="#portfolio-mobile">Portfolio</a></li>
+            <li><a href="#skills-mobile">Skills</a></li>
+            <li><a href="#contact-mobile">Contact</a></li>
+        </ul>
+        <img class="profile-pic" src="images/responsive-layout-profile.png" alt="profile-picture">
+        <p class="skill-text cool-text">Hello! I'm currently studing Front-End Web Development with Treehouse. I have learned a little HTML, CSS, and JavaScript. I have really enjoyed learning with Treehouse, and having projects to work on. Thanks Treehouse! </p>
     </section>
 </header>
 <body>
     <main id="mobile">
-        <h2 id="portfolio-mobile"class="sans-text">Portfolio</h2>
+        <h2 id="portfolio-mobile" class="sans-text">Portfolio</h2>
         <section class="projects">
             <div class="project">
                 <img class="project-img" src="images/portfolio-1.png" alt="project-pic">
@@ -60,16 +61,16 @@
         </section>
         <section id="skills-mobile" class="sans-text">
             <h2>Skills</h2>
-            <img class="skill-pic"src="images/html.png" alt="html-pic">
+            <img class="skill-pic" src="images/html.png" alt="html-pic">
             <h3>HTML</h3>
-            <p class="skill-text" class="cool-text">I have been learning HTML for a couple months and am starting to get the hang of it. I think... </p>
+            <p class="skill-text cool-text">I have been learning HTML for a couple months and am starting to get the hang of it. I think... </p>
             <img class="skill-pic" src="images/css.jpg" alt="html-pic">
             <h3>CSS</h3>
-            <p class="skill-text" class="cool-text">I have been learning CSS for a couple months as well I love Styling everything on my webpage and, am looking forward to learning more!</p>
+            <p class="skill-text cool-text">I have been learning CSS for a couple months as well I love Styling everything on my webpage and, am looking forward to learning more!</p>
         </section>
     </main>
     <footer id="contact-mobile">
-        <section>
+        <section class="mobile-contact">
             <h3 id="contact" class="sans-text">Contact</h3>
             <p class="cool-text">If you're interestred in chatting or want more information about what i've been working on, i'd love to hear from you!</p>
               <div>
@@ -79,8 +80,8 @@
             </div>
         </section>
         <section class="bottom">
-            <h2 class="name">Tristan Shipp</h2>
-            <button id="back-to-top"class="sans-text"><a href="#home-mobile">Back to Top</a></button>
+            <h2 class="name-bottom">Tristan Shipp</h2>
+            <a id="back-to-top" class="sans-text" href="#home-mobile">Back to Top</a>
         </section>
     </footer>
     
@@ -89,20 +90,21 @@
         <section id="tablet-header">
 
             <h1 id="tablet-home" class="name">Tristan Shipp</h1>
-            <nav>
-                <button class="button" class="sans-text"><a href="#tablet-home">Home</a></button>
-                <button class="button" class="sans-text"><a href="#portfolio-tablet">Portfolio</a></button>
-                <button   class="button" class="sans-text"><a href="#skills-tablet">Skills</a></button>
-                <button class="button" class="sans-text"><a href="#contact-tablet">Contact</a></button>
-            </nav>
+            <ul class="tablet-nav">
+
+                <li><a href="#tablet-header">Home</a></li>
+                <li><a href="#portfolio-tablet">Portfolio</a></li>
+                <li><a href="#skills-tablet">Skills</a></li>
+                <li><a href="#contact-tablet">Contact</a></li>
+            </ul>
             
                 <div class="tablet-profile">
                     
-                    <img class="profile-pic"src="images/responsive-layout-profile.png" alt="profile-picture">
-                <p class="skill-text" class="cool-text">Hello! I'm currently studing Front-End Web Development with Treehouse. I have learned a little HTML, CSS, and JavaScript. I have really enjoyed learning with Treehouse, and having projects to work on. Thanks Treehouse! </p>
+                    <img class="profile-pic" src="images/responsive-layout-profile.png" alt="profile-picture">
+                <p class="skill-text cool-text">Hello! I'm currently studing Front-End Web Development with Treehouse. I have learned a little HTML, CSS, and JavaScript. I have really enjoyed learning with Treehouse, and having projects to work on. Thanks Treehouse! </p>
             </div>
         </section>
-        <h2 id="portfolio-tablet"class="sans-text">Portfolio</h2>
+        <h2 id="portfolio-tablet" class="sans-text">Portfolio</h2>
         <section class="projects">
             <div class="project-row">
 
@@ -149,15 +151,15 @@
             <div class="html-css-parent">
                 <div class="html-css-child">
 
-                    <img class="skill-pic"src="images/html.png" alt="html-pic">
+                    <img class="skill-pic" src="images/html.png" alt="html-pic">
                     <h3>HTML</h3>
-                    <p class="skill-text" class="cool-text">I have been learning HTML for a couple months and am starting to get the hang of it. I think... </p>
+                    <p class="skill-text cool-text">I have been learning HTML for a couple months and am starting to get the hang of it. I think... </p>
                 </div>
                 <div class="html-css-child">
 
                     <img class="skill-pic" src="images/css.jpg" alt="html-pic">
                     <h3>CSS</h3>
-                    <p class="skill-text" class="cool-text">I have been learning CSS for a couple months as well I love Styling everything on my webpage and, am looking forward to learning more!</p>
+                    <p class="skill-text cool-text">I have been learning CSS for a couple months as well I love Styling everything on my webpage and, am looking forward to learning more!</p>
                 </div>
             </div>
         </section>
@@ -165,22 +167,23 @@
     <footer id="contact-tablet">
         <section class="contact-section">
             <h3 id="contact" class="sans-text">Contact</h3>
-            <p class="contact-text" class="cool-text">If you're interestred in chatting or want more information about what i've been working on, i'd love to hear from you!</p>
+            <p class="contact-text cool-text">If you're interestred in chatting or want more information about what i've been working on, i'd love to hear from you!</p>
               <div>
 
-                  <p class="contact-text" class="cool-text">Phone: <b class="sans-text">+1(111)555-1234</b></p>
-                  <p class="contact-text" class="cool-text">Email: <b class="sans-text">email@yoursite.com</b></p>
+                  <p class="contact-text cool-text">Phone: <b class="sans-text">+1(111)555-1234</b></p>
+                  <p class="contact-text cool-text">Email: <b class="sans-text">email@yoursite.com</b></p>
             </div>
         </section>
         <section class="bottom">
             <h2 class="name">Tristan Shipp</h2>
-            <div>
+            
+            <ul class="tablet-nav">
 
-                <button class="contact-buttons"><a href="#tablet-header">Home</a></button>
-                <button class="contact-buttons"><a href="#portfolio-tablet">Portfolio</a></button>
-                <button class="contact-buttons"><a href="#skills-tablet">Skills</a></button>
-                <button class="contact-buttons"><a href="#contact-tablet">Contact</a></button>
-            </div>
+                <li><a href="#tablet-header">Home</a></li>
+                <li><a href="#portfolio-tablet">Portfolio</a></li>
+                <li><a href="#skills-tablet">Skills</a></li>
+                <li><a href="#contact-tablet">Contact</a></li>
+            </ul>
         </section>
     </footer>
     <div id="desktop">
@@ -188,21 +191,22 @@
             <div class="top">
 
                 <h1 id="desktop-home" class="name">Tristan Shipp</h1>
-                <nav>
-                    <button class="button" class="sans-text"><a href="#desktop-home">Home</a></button>
-                    <button class="button" class="sans-text"><a href="#portfolio-desktop">Portfolio</a></button>
-                    <button   class="button" class="sans-text"><a href="#skills-desktop">Skills</a></button>
-                    <button class="button" class="sans-text"><a href="#contact-desktop">Contact</a></button>
-                </nav>
+                <ul class="desktop-nav">
+
+                    <li><a href="#desktop-header">Home</a></li>
+                    <li><a href="#portfolio-desktop">Portfolio</a></li>
+                    <li><a href="#skills-desktop">Skills</a></li>
+                    <li><a href="#contact-tablet">Contact</a></li>
+                </ul>
             </div>
             
             <div class="desktop-profile">
                 
-                <img class="profile-pic"src="images/responsive-layout-profile.png" alt="profile-picture">
-                <p class="skill-text" class="cool-text">Hello! I'm currently studing Front-End Web Development with Treehouse. I have learned a little HTML, CSS, and JavaScript. I have really enjoyed learning with Treehouse, and having projects to work on. Thanks Treehouse! </p>
+                <img class="profile-pic" src="images/responsive-layout-profile.png" alt="profile-picture">
+                <p class="skill-text cool-text">Hello! I'm currently studing Front-End Web Development with Treehouse. I have learned a little HTML, CSS, and JavaScript. I have really enjoyed learning with Treehouse, and having projects to work on. Thanks Treehouse! </p>
             </div>
         </section>
-        <h2 id="portfolio-desktop"class="sans-text">Portfolio</h2>
+        <h2 id="portfolio-desktop" class="sans-text">Portfolio</h2>
         <section class="projects">
             <div class="project-row">
 
@@ -249,40 +253,41 @@
             <div class="html-css-parent">
                 <div class="html-css-child">
 
-                    <img class="skill-pic"src="images/html.png" alt="html-pic">
+                    <img class="skill-pic" src="images/html.png" alt="html-pic">
                     <h3>HTML</h3>
-                    <p class="skill-text" class="cool-text">I have been learning HTML for a couple months and am starting to get the hang of it. I think... </p>
+                    <p class="skill-text cool-text">I have been learning HTML for a couple months and am starting to get the hang of it. I think... </p>
                 </div>
                 <div class="html-css-child">
 
                     <img class="skill-pic" src="images/css.jpg" alt="html-pic">
                     <h3>CSS</h3>
-                    <p class="skill-text" class="cool-text">I have been learning CSS for a couple months as well I love Styling everything on my webpage and, am looking forward to learning more!</p>
+                    <p class="skill-text cool-text">I have been learning CSS for a couple months as well I love Styling everything on my webpage and, am looking forward to learning more!</p>
                 </div>
             </div>
         </section>
-    </div>
-        <footer id="contact-desktop">
-            <section class="contact-section">
-                <h3 id="contact" class="sans-text">Contact</h3>
-                <p class="contact-text" class="cool-text">If you're interestred in chatting or want more information about what i've been working on, i'd love to hear from you!</p>
-                  <div>
+        <div>
+            <footer id="contact-desktop">
+                <section class="contact-section">
+                    <h3 id="contact" class="sans-text">Contact</h3>
+                    <p class="contact-text cool-text">If you're interestred in chatting or want more information about what i've been working on, i'd love to hear from you!</p>
+                     <div>
     
-                      <p class="contact-text" class="cool-text">Phone: <b class="sans-text">+1(111)555-1234</b></p>
-                      <p class="contact-text" class="cool-text">Email: <b class="sans-text">email@yoursite.com</b></p>
-                </div>
-            </section>
-            <section class="desktop-bottom">
-                <h2 class="name">Tristan Shipp</h2>
-                <div class="bottom-nav">
-    
-                    <button class="contact-buttons"><a href="#desktop-header">Home</a></button>
-                    <button class="contact-buttons"><a href="#portfolio-desktop">Portfolio</a></button>
-                    <button class="contact-buttons"><a href="#skills-desktop">Skills</a></button>
-                    <button class="contact-buttons"><a href="#contact-desktop">Contact</a></button>
-                </div>
-            </section>
-        </footer>
-    </div>
-</body>
+                        <p class="contact-text cool-text">Phone: <b class="sans-text">+1(111)555-1234</b></p>
+                        <p class="contact-text cool-text">Email: <b class="sans-text">email@yoursite.com</b></p>
+                    </div>
+                </section>
+                <section class="desktop-bottom">
+                    <h2 class="name">Tristan Shipp</h2>
+                    
+                    <ul class="desktop-nav">
+
+                        <li><a href="#desktop-header">Home</a></li>
+                        <li><a href="#portfolio-desktop">Portfolio</a></li>
+                        <li><a href="#skills-desktop">Skills</a></li>
+                        <li><a href="#contact-desktop">Contact</a></li>
+                    </ul>
+                </section>
+            </footer>
+        </div>
+    </body>
 </html>

@@ -12,7 +12,7 @@ header {
     justify-content: center;
     background-image: linear-gradient(to bottom, #FCD36E, #F78460);
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
 }
 
 nav {
@@ -60,7 +60,7 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height: 140vh;
+    height: 160vh;
     width: 100vw;
 }
 #back-to-top {
@@ -70,7 +70,23 @@ footer {
 /* ---> class Selectors <-- */
 .name {
     font-family: 'Dancing Script', cursive;
+    font-size: 40px;
      
+}
+.name-bottom {
+    
+    width: 60vw;
+    font-size: 25px;
+    font-family: 'Dancing Script', cursive;
+}
+.mobile-contact {
+    
+    width: 80vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 .projects {
     
@@ -160,7 +176,13 @@ footer {
         flex-direction: column;
     }
     .project {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
         width: 35vw;
+        height: 50vh;
+        
     }
     .project-img {
         object-fit: cover;
@@ -180,10 +202,11 @@ footer {
     }
     .html-css-parent {
         width: 80vw;
+        height: 90vh;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items: flex-end;
+        align-items: center;
     }
     .html-css-child {
         width: 30vw;
@@ -207,7 +230,7 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        height: 80vh;
+        height: 100vh;
         width: 100vw;
 
     }
@@ -260,7 +283,10 @@ footer {
     }
     #contact-tablet {
         display: flex;
+        justify-content: space-around;
         width: 100vw;
+        height: 70vh;
+        
     }
     .contact-section {
         width: 70vw;
@@ -277,6 +303,17 @@ footer {
     .contact-text {
         font-size: 1.5em;
         font-family: 'Indie Flower', cursive; 
+    }
+    .tablet-nav {
+        display: flex;
+        flex-direction: row;
+        
+        padding-top: 30px;
+        width: 50vw;
+        justify-content: space-around;
+    }
+    li {
+        font-family: 'Noto Sans', sans-serif;
     }
 }
 @media (max-width: 767px) {
@@ -300,6 +337,26 @@ footer {
     #contact-desktop {
         display: none;
     }
+    .mobile-nav {
+        
+        width: 50vw;
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border-radius: 15px;
+    }
+    li {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-family: 'Noto Sans', sans-serif;
+        width: 50vw;
+        height: 5vh;
+        border-radius: 15px;
+        background-color: white;
+    }
+    
     
 }
 @media screen and (min-width: 1024px) {
@@ -318,7 +375,7 @@ footer {
     }
     #desktop-header {
         width: 100vw;
-        height: 55vh;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -371,13 +428,28 @@ footer {
         justify-content: space-between;
         
     }
+    .desktop-nav {
+        display: flex;
+        flex-direction: row;
+        
+        width: 40vw;
+        justify-content: space-around;
+    }
     .bottom-nav{
         width: 30vw;
         display: flex;
         
     }
+    li {
+        font-family: 'Noto Sans', sans-serif;
+    }
     .name {
         width: 30vw;
+    }
+    .skill-pic {
+        width: 30vw;
+        height: 50vh;
+        object-fit: cover;
     }
     #skills-desktop {
         background-image: linear-gradient(to right,
@@ -386,7 +458,7 @@ footer {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height: 80vh;
+    height: 120vh;
     width: 100vw; 
     }
 
