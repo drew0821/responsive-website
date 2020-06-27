@@ -40,6 +40,7 @@ footer {
 /* ---> ID Selectors <-- */
 #header {
     width: 80vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -66,6 +67,9 @@ footer {
 #back-to-top {
     border: none;
     background-color: rgb(243, 243, 243);
+}
+#portfolio-mobile {
+    padding-top: 20px;
 }
 /* ---> class Selectors <-- */
 .name {
@@ -170,10 +174,15 @@ footer {
     }
     header {
         display: none;
+        
     }
     #tablet {
         display: flex;
         flex-direction: column;
+
+    }
+    #portfolio-tablet {
+        padding-top: 20px;
     }
     .project {
         display: flex;
@@ -241,7 +250,7 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: rgb(243, 243, 243);
+        background-image: linear-gradient(to bottom, #FCD36E, #F78460);
 
     }
     .tablet-profile {
@@ -380,7 +389,7 @@ footer {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
-        background-color: rgb(243, 243, 243);
+        background-image: linear-gradient(to bottom, #FCD36E, #F78460);
         margin-bottom: 100px;
     }
     .cool-text {
@@ -431,7 +440,7 @@ footer {
     .desktop-nav {
         display: flex;
         flex-direction: row;
-        
+        padding-top: 30px;
         width: 40vw;
         justify-content: space-around;
     }
