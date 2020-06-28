@@ -443,6 +443,7 @@ footer {
         padding-top: 30px;
         width: 40vw;
         justify-content: space-around;
+        margin-bottom: 40px;
     }
     .bottom-nav{
         width: 30vw;
